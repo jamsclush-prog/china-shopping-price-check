@@ -1,0 +1,40 @@
+[
+  {
+    "platform": "JD",
+    "title": "示例手机 12GB+256GB 黑色",
+    "base_price": 3999,
+    "shipping": 0,
+    "discounts": [{"type": "platform_coupon", "amount": 200}],
+    "conditional_discounts": [{"type": "trade_in", "amount": 300, "condition": "需符合条件的旧机"}],
+    "observed_final_price": 3799,
+    "price_stage": "checkout",
+    "match": "exact",
+    "confidence": 0.98,
+    "stock": "in_stock",
+    "collected_at": "2099-06-06T08:00:00Z"
+  },
+  {
+    "platform": "Pinduoduo",
+    "title": "示例手机 系列低至",
+    "base_price": 3299,
+    "price_stage": "search_card",
+    "match": "ambiguous",
+    "confidence": 0.55,
+    "stock": "unknown",
+    "conditional_discounts": [{"type": "new_user", "amount": 300, "condition": "仅限新用户"}],
+    "collected_at": "2099-06-06T08:00:00Z"
+  },
+  {
+    "platform": "Tmall",
+    "title": "示例手机 12GB+256GB 黑色 官方旗舰店",
+    "base_price": 3899,
+    "shipping": 0,
+    "discounts": [{"type": "shop_coupon", "amount": 100}],
+    "observed_final_price": 3799,
+    "price_stage": "product_page",
+    "match": "exact",
+    "confidence": 0.9,
+    "stock": "in_stock",
+    "collected_at": "2099-06-06T08:00:00Z"
+  }
+]
