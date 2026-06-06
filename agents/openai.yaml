@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国电商查价询价"
+  short_description: "搜索中国购物平台并核算真实到手价"
+  default_prompt: "Use $china-shopping-price-check to compare current prices for a product across Chinese shopping platforms."
